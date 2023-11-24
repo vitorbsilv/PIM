@@ -53,7 +53,7 @@ while(1){
 	nota=0;
 	
 	FILE*p_arquivo;
-	p_arquivo=fopen("arquivo.txt","a");
+	p_arquivo=fopen("feedback.txt","a");
 	printf("Nos de sua opinião!\n");
 linha();
 	printf("Nome: ");
@@ -82,20 +82,20 @@ linha();
 	printf("O que achou desta obra? ");
 	scanf(" %[^\n]s",opiniao);
 linha();
-	printf("Veria esta obra novamente?(Sim/Não)\n");
+	printf("Veria esta obra novamente?(Sim/Nao)\n");
 	scanf(" %[^\n]s",volta);
 	capslock(volta);
 	while(strcmp(volta,"sim")!=0 && strcmp(volta,"s")!=0 && strcmp(volta,"nao")!=0 && strcmp(volta,"n")!=0 ){
-		printf("Digite apenas \"Sim\" ou \"Não\"\n");
+		printf("Digite apenas \"Sim\" ou \"Nao\"(SEM ACENTO!)\n");
 		scanf(" %[^\n]s",volta);
 		capslock(volta);
 	}
 linha();
-	printf("Gostaria de contribuir com sugestões\nou críticas? (Sim/Não)");
+	printf("Gostaria de contribuir com sugestões\nou críticas? (Sim/Nao)\n");
 	scanf(" %[^\n]s",sug);
 	capslock(sug);
 	while(strcmp(sug,"sim")!=0 && strcmp(sug,"s")!=0 && strcmp(sug,"nao")!=0 && strcmp(sug,"n")!=0 ){
-		printf("Digite apenas \"Sim\" ou \"Não\"\n");
+		printf("Digite apenas \"Sim\" ou \"Nao\"(SEM ACENTO!)\n");
 		scanf(" %[^\n]s",sug);
 		capslock(sug);
 	}

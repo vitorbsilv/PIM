@@ -1,0 +1,21 @@
+Nome: vitor barboza
+Idade: 19
+Nota: 4
+Opinião: interessante
+Visitaria novamente? sim
+Sugestões/Críticas: Museu lotado
+----------------------------------------
+Nome: vitor b
+Idade: 19
+Nota: 3
+Opinião: legal
+Visitaria novamente? nao
+Sugestões/Críticas: 
+----------------------------------------
+Nome: teste
+Idade: 50
+Nota: 5
+Opinião: otima
+Visitaria novamente? n
+Sugestões/Críticas: 
+----------------------------------------

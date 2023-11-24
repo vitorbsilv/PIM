@@ -89,12 +89,12 @@ linha();
 	printf("Gostaria de Meia-entrada para estudantes?(Sim/não)\n");
 	scanf(" %[^\n]s",estudante);
 	capslock(estudante);
-	while(strcmp(estudante,"sim")!=0 && strcmp(estudante,"s")!=0 && strcmp(estudante,"nao")!=0 && strcmp(estudante,"não")!=0 && strcmp(estudante,"n")!=0 ){
-		printf("Digite apenas \"Sim\" ou \"Não\"\n");
+	while(strcmp(estudante,"sim")!=0 && strcmp(estudante,"s")!=0 && strcmp(estudante,"nao")!=0 && strcmp(estudante,"n")!=0 ){
+		printf("Digite apenas \"Sim\" ou \"Nao\"(SEM ACENTO!)\n");
 		scanf(" %[^\n]s",estudante);
 		capslock(estudante);
 	}
-	if (strcmp(estudante, "sim") == 0 || strcmp(estudante, "s") == 0 && strcmp(estudante, "nao") != 0 && strcmp(estudante,"nao")!=0 && strcmp(estudante, "n") != 0 && inteira>1){
+	if (strcmp(estudante, "sim") == 0 || strcmp(estudante, "s") == 0 && strcmp(estudante,"nao")!=0 && strcmp(estudante, "n") != 0 && inteira>1){
 		printf("De %d ingressos, quantos serão meia-entrada?\n",inteira);
 		scanf(" %[^\n]s",meia_str);
 		meia=atoi(meia_str);
@@ -104,13 +104,13 @@ linha();
 			meia=atoi(meia_str);
 		}
 	}
-	else if((strcmp(estudante, "sim") == 0 || strcmp(estudante, "s") == 0 && strcmp(estudante, "nao") != 0 && strcmp(estudante,"nao")!=0 && strcmp(estudante, "n") != 0) && inteira==1){
+	else if((strcmp(estudante, "sim") == 0 || strcmp(estudante, "s") == 0 && strcmp(estudante,"nao")!=0 && strcmp(estudante, "n") != 0) && inteira==1){
 		meia++;
 	}
 	inteira-=meia;
 	total+=(meia*10)+(inteira*20);
 linha();
-	printf("Resutado\n");
+	printf("Resultado\n");
 	printf("Nome:%s\n",nome);
 	printf("Idade:%d\n",idade);
 	if(inteira>=1){

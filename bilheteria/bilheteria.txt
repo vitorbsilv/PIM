@@ -12,3 +12,9 @@ Ingressos meia-entrada:3
 Qtd total de ingressos:4
 Total:50R$
 --------------------------
+Nome:vitor b
+Idade:19
+Ingressos inteira:3
+Qtd total de ingressos:3
+Total:60R$
+--------------------------
